@@ -91,7 +91,7 @@ return true
 else 
 return false 
 end 
-endش
+end
 function BasicConstructor(msg)
 local hash = database:sismember(bot_id.."Basic:Constructor"..msg.chat_id_, msg.sender_user_id_) 
 if hash or DevNiggA(msg) or DevBot(msg) or NiggADevSou(msg) or creatorA(msg) then     
